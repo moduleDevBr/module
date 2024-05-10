@@ -1,27 +1,15 @@
 "use client";
 
-import Image from "next/image";
-import React, { useState } from "react";
+import { useState } from "react";
+import Logo from "@/app/_components/Logo";
+import Button from "@/app/_components/Button";
 
 export default function Home() {
   const [color, setColor] = useState(true);
-
   return (
     <main className={`main ${color ? "white" : "black"}`}>
-      <div className="logo">
-        <Image
-          src={`${
-            color
-              ? "/logomarca-module-white.svg"
-              : "/logomarca-module-black.svg"
-          }`}
-          alt="Module Logomarca"
-          width={389}
-          height={300}
-          priority
-          onClick={() => setColor(!color)}
-        />
-      </div>
+      <Logo color={color} large={true} setColor={setColor} />
+      <Button textLink={"Quem somos"}  link={"/quem-somos"} fixed={true} color={color} />
     </main>
   );
 }
