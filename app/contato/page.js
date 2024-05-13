@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Logo from "@/app/_components/Logo";
 import Header from "../_components/Header";
-import Image from "next/image";
 
 export default function Contato() {
   const [color, setColor] = useState(true);
@@ -14,7 +13,7 @@ export default function Contato() {
       <section className="wrapCards">
         <div className="card gap24">
           <div className="center">
-            <Image
+            <img
               src="/ricardo-comino-franca.png"
               alt="Ricardo Comino França - Membro Fundador"
               width={100}

@@ -1,13 +1,12 @@
 "use client";
 
-import Image from "next/image";
 import { useState } from "react";
 
 const Logo = ({ large, color, setColor }) => {
   const [colorState, setColorState] = useState(color);
   return (
     <div className="logo">
-      <Image
+      <img
         src={
           colorState
             ? "/logomarca-module-white.svg"
@@ -16,7 +15,6 @@ const Logo = ({ large, color, setColor }) => {
         alt="Module Logomarca"
         width={large ? 500 : 250}
         height={large ? 385 : 204.25}
-        priority
         onClick={() => {
           setColorState(!colorState);
           setColor(!colorState);
