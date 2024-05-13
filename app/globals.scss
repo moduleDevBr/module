@@ -148,7 +148,10 @@ body {
         flex-direction: column;
         max-width: 300px;
         width: 100%;
-        gap: 24px;
+
+        &.gap24 {
+          gap: 24px;
+        }
       }
     }
 
