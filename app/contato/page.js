@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Logo from "@/app/_components/Logo";
 import Header from "../_components/Header";
+import Image from "next/image";
 
 export default function Contato() {
   const [color, setColor] = useState(true);
@@ -12,14 +13,18 @@ export default function Contato() {
       <Header textLink="Contato" link="/modelo-de-negocio" color={color} />
       <section className="wrapCards">
         <div className="card">
-          <h2 className="center">Comercial</h2>
-          <h3 className="center">Ricardo Comino França</h3>
+          <div className="center">
+            <Image
+              src="/ricardo-comino-franca.png"
+              alt="Ricardo Comino França - Membro Fundador"
+              width={100}
+              height={100}
+              className="photoProfile"
+            />
+            <h2 className="center">Ricardo Comino França</h2>
+            <h3 className="center">Membro Fundador</h3>
+          </div>
           <p className="center">(11) 99771-0284</p>
-        </div>
-        <div className="card">
-          <h2 className="center">Tecnologia</h2>
-          <h3 className="center">Harry Zevin Raddatz</h3>
-          <p className="center">(11) 96442-1025</p>
         </div>
       </section>
     </main>

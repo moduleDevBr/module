@@ -24,35 +24,42 @@ export default function AnaliseSwot() {
             Testar as soluções e colocá-las em prática.
           </p>
         </div>
+
         <div className="card">
           <h2 className="uppercase">
             <strong>Fraquezas (Weaknesses)</strong>
           </h2>
           <p className="uppercase">
-            Prazo de entrega longo, pois trabalhamos em hora extra.
+            Prazo de entrega longo para os primeiros módulos, pois trabalhamos
+            em hora extra.
           </p>
         </div>
+
         <div className="card">
           <h2 className="uppercase">
             <strong>Oportunidades (Opportunities)</strong>
           </h2>
+          <p className="uppercase"> Fazer uma única vez e vender várias.</p>
+          <p className="uppercase">Módulos em diversas linguagens.</p>
+          <p className="uppercase">Mão de obra especializada sob demanda.</p>
+          <p className="uppercase">Vender customizações de módulos prontos.</p>
           <p className="uppercase">Vender módulos em diversas linguagens.</p>
-          <p className="uppercase">
-            Vender mão de obra especializada sob demanda.
-          </p>
-          <p className="uppercase">Vender códigos prontos do github.</p>
-          <p className="uppercase">Proporcionar redução de custos.</p>
         </div>
+
         <div className="card">
           <h2 className="uppercase">
             <strong>Ameaças (Threats)</strong>
           </h2>
-          <p className="uppercase">
-            Dificuldade em encontrar mão de obra especializada em hora extra.
-          </p>
+          <p className="uppercase">Burocrácias trabalhistas. </p>
+          <p className="uppercase">Desenvolvedores sobrecarregados.</p>
         </div>
       </section>
-      <Button textLink="Modelo de negócio" link="/modelo-de-negocio" fixed={true} color={color} />
+      <Button
+        textLink="Modelo de negócio"
+        link="/modelo-de-negocio"
+        fixed={true}
+        color={color}
+      />
     </main>
   );
 }
