@@ -12,7 +12,7 @@ export default function Contato() {
       <Logo color={color} setColor={setColor} />
       <Header textLink="Contato" link="/modelo-de-negocio" color={color} />
       <section className="wrapCards">
-        <div className="card">
+        <div className="card gap24">
           <div className="center">
             <Image
               src="/ricardo-comino-franca.png"

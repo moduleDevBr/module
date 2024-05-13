@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Logo from "@/app/_components/Logo";
 import Button from "@/app/_components/Button";
-import Image from "next/image";
 import Header from "../_components/Header";
 
 export default function QuemSomos() {
@@ -13,9 +12,9 @@ export default function QuemSomos() {
       <Logo color={color} setColor={setColor} />
       <Header textLink="Quem somos" link="/" color={color} />
       <section className="wrapCards">
-        <div className="card">
+        <div className="card gap24">
           <div className="center">
-            <Image
+            <img
               src="/ricardo-comino-franca.png"
               alt="Ricardo Comino França - Membro Fundador"
               width={100}
@@ -38,9 +37,9 @@ export default function QuemSomos() {
             outras.
           </p>
         </div>
-        <div className="card">
+        <div className="card gap24">
           <div className="center">
-            <Image
+            <img
               src="/harry-kevin-raddatz.png"
               alt="Harry Kevin Raddatz - Membro Co-Fundador"
               width={100}
@@ -62,9 +61,9 @@ export default function QuemSomos() {
             expandir meu conhecimento e contribuir para projetos inovadores.
           </p>
         </div>
-        <div className="card">
+        <div className="card gap24">
           <div className="center">
-            <Image
+            <img
               src="/module-members.png"
               alt="Especialistas - Membros Module"
               width={100}

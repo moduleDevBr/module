@@ -39,11 +39,10 @@ export default function AnaliseSwot() {
           <h2 className="uppercase">
             <strong>Oportunidades (Opportunities)</strong>
           </h2>
-          <p className="uppercase"> Fazer uma única vez e vender várias.</p>
+          <p className="uppercase">Fazer uma única vez e vender várias.</p>
           <p className="uppercase">Módulos em diversas linguagens.</p>
           <p className="uppercase">Mão de obra especializada sob demanda.</p>
           <p className="uppercase">Vender customizações de módulos prontos.</p>
-          <p className="uppercase">Vender módulos em diversas linguagens.</p>
         </div>
 
         <div className="card">

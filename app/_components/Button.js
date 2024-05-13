@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 
 export default function Button({ textLink, link, fixed, color }) {
@@ -6,14 +6,14 @@ export default function Button({ textLink, link, fixed, color }) {
     <Link href={link} className={`button ${fixed && "fixed"}`}>
       {textLink}
       {color ? (
-        <Image
+        <img
           src="/icon-arrow-down-black.svg"
           width={24}
           height={24}
           alt="Icone seta para baixo"
         />
       ) : (
-        <Image
+        <img
           src="/icon-arrow-down-white.svg"
           width={24}
           height={24}
