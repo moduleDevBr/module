@@ -12,31 +12,28 @@ export default function ModeloDeNegocio() {
       <Logo color={color} setColor={setColor} />
       <Header textLink="Modelo de negócio" link="/analise-swat" color={color} />
       <ul className="listCards">
+        <li className="card">1. Captamos as demandas.</li>
+        <li className="card">2. Estimamos as horas e o prazo de entrega.</li>
         <li className="card">
-          1. Captamos as demandas.
+          3. Formamos a SQUAD com os membros especialistas.
         </li>
         <li className="card">
-          2. Estimamos as horas e o prazo de entrega.
-          </li>
-        <li className="card">
-          3. Formamos a Squad de membros para desenvolver o módulo.
+          4. Cada membro faz o que gosta dentro da sua especialidade.
         </li>
         <li className="card">
-          4. Cada membro faz o que gosta de forma simples e inteligente.
+          5. As demandas são entregues dentro do prazo estimado por cada
+          especialista.
         </li>
         <li className="card">
-          5. Eles entregam as demandas dentro do prazo estimado por eles.
+          6. Os membros certificados fazem o code review e a validação do
+          módulo.
         </li>
         <li className="card">
-          6. Os membros certificados fazem o code review.
+          7. Publicamos o módulo em nosso gerenciador de pacote NPM privado.
         </li>
         <li className="card">
-          7. Publicamos o módulo em nosso gerenciador de pacote NPM ou
-          compatível.
-        </li>
-        <li className="card">
-          8. Após a entrega do módulo, os valores são repassados aos membros
-          envolvidos.
+          8. Geramos o token ao comprador, emitimos a nota fiscal e repassamos
+          os valores aos membros envolvidos.
         </li>
       </ul>
       <Button textLink="Contato" link="/contato" fixed={true} color={color} />
