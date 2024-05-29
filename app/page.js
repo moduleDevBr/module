@@ -9,7 +9,14 @@ export default function Home() {
   return (
     <main className={`main ${color ? "white" : "black"}`}>
       <Logo color={color} large={true} setColor={setColor} />
-      <Button textLink={"Quem somos"}  link={"/quem-somos"} fixed={true} color={color} />
+      <section className="center">
+        <Button
+          textLink={"Quem somos"}
+          link={"/quem-somos"}
+          fixed={false}
+          color={color}
+        />
+      </section>
     </main>
   );
 }
