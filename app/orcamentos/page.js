@@ -5,25 +5,18 @@ import Logo from "@/app/_components/Logo";
 import Button from "@/app/_components/Button";
 import Header from "../_components/Header";
 
-export default function Ideal() {
+export default function Orcamentos() {
   const [color, setColor] = useState(true);
   return (
     <main className={`main flexStart ${color ? "white" : "black"}`}>
       <Logo color={color} setColor={setColor} />
-      <Header textLink="Ideal" link="/quem-somos" color={color} />
+      <Header textLink="Orçamentos" link="/ideal" color={color} />
       <section className="center">
         <p className="uppercase">
-          Que cada um possa fazer o que gosta, com simplicidade e inteligência.
+          O que você deseja orçar?
         </p>
       </section>
-      <section className={`center`}>
-        <Button
-          textLink="Projetos"
-          link="/projetos"
-          fixed={false}
-          color={color}
-        />
-      </section>
+      <Button textLink="Contato" link="/contato" fixed={true} color={color} />
     </main>
   );
 }

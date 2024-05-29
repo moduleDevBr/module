@@ -4,8 +4,8 @@ import "@/app/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "MODULE . DEV . BR",
-  description: "Plataforma de venda de módulos de sistemas",
+  title: "Module.Dev.Br",
+  description: "Desenvolvendo soluções simples e inteligentes",
 };
 
 export default function RootLayout({ children }) {

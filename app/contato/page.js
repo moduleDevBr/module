@@ -9,7 +9,7 @@ export default function Contato() {
   return (
     <main className={`main flexStart ${color ? "white" : "black"}`}>
       <Logo color={color} setColor={setColor} />
-      <Header textLink="Contato" link="/modelo-de-negocio" color={color} />
+      <Header textLink="Projetos" link="/projetos" color={color} />
       <section className="wrapCards">
         <div className="card gap24">
           <div className="center">
@@ -21,7 +21,7 @@ export default function Contato() {
               className="photoProfile"
             />
             <h2 className="center">Ricardo Comino França</h2>
-            <h3 className="center">Membro Fundador</h3>
+            <h3 className="center">Comercial</h3>
           </div>
           <p className="center">(11) 99771-0284</p>
         </div>
